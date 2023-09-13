@@ -291,13 +291,13 @@ cards.forEach((val, idx) => {
 
 })
 
-gsap.from(contactRight, 0.3, {
-    scrollTrigger: {
-        trigger: section04,
-        start: 'bottom 50%',
-    },
-    y: -200,
-    opacity: 0,
-    delay: 0.3,
+// gsap.from(contactRight, 0.3, {
+//     scrollTrigger: {
+//         trigger: section04,
+//         start: 'bottom 50%',
+//     },
+//     y: -200,
+//     opacity: 0,
+//     delay: 0.3,
 
-})
+// })
