@@ -316,8 +316,8 @@ section .about_self {
 }
 
 section .about_self .left {
-    width: 35%;
-    height: 500px;
+    width: 40%;
+    height: 550px;
     transform: translateY(-800px);
     opacity: 0;
     border-radius: 20px;
@@ -331,9 +331,9 @@ section .about_self .left img {
 }
 
 section .about_self .right {
-    width: 60%;
+    width: 58%;
     padding: 10px 20px;
-    height: 500px;
+    height: 550px;
     border: 1px solid #ccc;
     transform: translateY(800px);
     opacity: 0;
@@ -341,7 +341,7 @@ section .about_self .right {
 }
 
 section .about_self .right h4 {
-    font-size: 28px;
+    font-size: 24px;
 }
 
 .right_box_wrap {
@@ -372,7 +372,7 @@ section .about_self .right h4 {
 .about_right ul {}
 
 .about_right ul.certif {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .about_right ul li {
