@@ -239,7 +239,7 @@ let progressCnt = setInterval(() => {
     progress[2].value = cnt - 10
     progress[3].value = cnt - 20
     progress[4].value = cnt - 10
-    progress[5].value = cnt - 20
+    progress[5].value = cnt - 40
     progress[6].value = cnt - 20
     progress[7].value = cnt
     progress[8].value = cnt - 20
@@ -276,20 +276,31 @@ gsap.from(num, {
 
 const cards = document.querySelectorAll('.card')
 const contactRight = document.querySelector('.contact .right')
+const contactLeft = document.querySelector('.contact .left')
 
-cards.forEach((val, idx) => {
-
-    gsap.from(val, 0.3, {
-        scrollTrigger: {
-            trigger: section04,
-            start: 'bottom 50%',
-        },
-        y: 50,
-        opacity: 0,
-        delay: (idx + 1) * 0.3
-    })
-
+gsap.from(contactLeft, 0.3, {
+    scrollTrigger:{
+        trigger:section04,
+        start: 'bottom 50%',
+    },
+    y:50,
+    opacity :0,
+    delay:0.5,
 })
+
+// cards.forEach((val, idx) => {
+
+//     gsap.from(val, 0.3, {
+//         scrollTrigger: {
+//             trigger: section04,
+//             start: 'bottom 50%',
+//         },
+//         y: 50,
+//         opacity: 0,
+//         delay: (idx + 1) * 0.3
+//     })
+
+// })
 
 // gsap.from(contactRight, 0.3, {
 //     scrollTrigger: {

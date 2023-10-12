@@ -341,16 +341,34 @@ section .about_self .right {
 }
 
 section .about_self .right h4 {
-    font-size: 24px;
+    font-size: 30px;
+    position: relative;
+    display: inline-block;
+}
+section .about_self .right h4::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: calc(50% + 5px);
+    left: 50%;
+    width: calc(100% + 20px);
+    height: 30%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    background-color: #AFD3E2;
 }
 
 .right_box_wrap {
+    height: 100%;
     display: flex;
-    padding: 10px;
+    justify-content: center;
+    padding: 30px 10px;
 }
 
+
 .about_left {
-    width: 50%;
+    width: 33.3333%;
+    text-align: center;
 }
 
 .about_left ul {}
@@ -366,24 +384,32 @@ section .about_self .right h4 {
 }
 
 .about_right {
-    width: 50%;
+    width: 33.3333%;
 }
 
-.about_right ul {}
-
-.about_right ul.certif {
-    margin-top: 10px;
+.about_right ul {
+   text-align: center;
 }
+
+
 
 .about_right ul li {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .about_right ul li span {
     font-size: 20px;
 }
 
-
+.about_right2{
+    width: 33.3333%;
+}
+.about_right2 ul{
+    text-align: center;
+}
+.about_right2 ul li{
+    margin-top: 10px;
+}
 
 
 
