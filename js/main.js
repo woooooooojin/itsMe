@@ -64,7 +64,7 @@ function createStar() {
 function randomposition() {
     return Math.floor(Math.random() * window.innerWidth);
 }
-for (let i = 0; i < 300; i++) {
+for (let i = 0; i < 350; i++) {
     createStar()
 }
 
@@ -302,13 +302,13 @@ gsap.from(contactLeft, 0.3, {
 
 // })
 
-// gsap.from(contactRight, 0.3, {
-//     scrollTrigger: {
-//         trigger: section04,
-//         start: 'bottom 50%',
-//     },
-//     y: -200,
-//     opacity: 0,
-//     delay: 0.3,
+gsap.from(contactRight, 0.3, {
+    scrollTrigger: {
+        trigger: section04,
+        start: 'bottom 50%',
+    },
+    Y: -50,
+    opacity: 0,
+    delay: 0.5,
 
-// })
+})
