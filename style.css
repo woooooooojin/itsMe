@@ -635,7 +635,8 @@ section .about_self .right h4::after{
 }
 
 .portfolio_wrap .portfolio_box:nth-child(1),
-.portfolio_wrap .portfolio_box:nth-child(4) {
+.portfolio_wrap .portfolio_box:nth-child(4),
+.portfolio_wrap .portfolio_box:nth-child(7) {
     margin-left: 20px;
 }
 
@@ -839,8 +840,6 @@ section.contact .contact_me .right .swiper img {
     height: 15px;
     border-radius: 20px;
 }
-
-
 
 
 /********footer*********/
