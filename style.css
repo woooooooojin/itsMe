@@ -668,7 +668,14 @@ section .about_self .right h4::after{
     border-radius: 0;
     border: 0;
 }
-
+.portfolio_wrap .portfolio_box .p_img .maingif.cafeicon{
+    width: 73%;
+    left: 15%;
+}
+.portfolio_wrap .portfolio_box .p_img .maingif.todo{
+    width: 73%;
+    left: 15%;
+}
 .portfolio_wrap .portfolio_box .portfolio_tag {
     position: relative;
 }
