@@ -669,7 +669,7 @@ section .about_self .right h4::after{
     border: 0;
 }
 .portfolio_wrap .portfolio_box .p_img .maingif.cafeicon{
-    width: 73%;
+    width: 65%;
     left: 15%;
 }
 .portfolio_wrap .portfolio_box .p_img .maingif.todo{
