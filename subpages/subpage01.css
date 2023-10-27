@@ -161,6 +161,11 @@ main{
     height: 350px;
     left: 60px;
 }
+.main_wrap .first_box .first_left img:nth-child(2).todo_img{
+    width: 80%;
+    height: 350px;
+    left: 60px;
+}
 
 .main_wrap .first_box .first_right{
     width: 590px;
