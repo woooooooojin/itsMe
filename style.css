@@ -331,7 +331,7 @@ section .about_self .left img {
 }
 
 section .about_self .right {
-    width: 58%;
+    width: 60%;
     padding: 10px 20px;
     height: 550px;
     border: 1px solid #ccc;
