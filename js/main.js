@@ -234,8 +234,8 @@ let progressCnt = setInterval(() => {
     }
     cnt += 1
 
-    progress[0].value = cnt
-    progress[1].value = cnt
+    progress[0].value = cnt - 5
+    progress[1].value = cnt - 5
     progress[2].value = cnt - 10
     progress[3].value = cnt - 20
     progress[4].value = cnt - 10
