@@ -134,7 +134,7 @@ main button.download {
 main button.download:hover{
     box-shadow: 0 0 20px #fff;
 }
-main button.download a{
+main button.download{
     color: #fff;
     font-size: 14px;
 }

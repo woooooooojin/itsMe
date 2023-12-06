@@ -68,7 +68,14 @@ for (let i = 0; i < 350; i++) {
     createStar()
 }
 
+//down btn
 
+const downBtn = document.querySelector('.download')
+const loca = document.querySelector('.about').offsetTop
+downBtn.addEventListener('click',()=>{
+    window.scrollTo({top:loca,left:0,behavior:'smooth'})
+
+})
 
 
 
@@ -277,16 +284,27 @@ gsap.from(num, {
 const cards = document.querySelectorAll('.card')
 const contactRight = document.querySelector('.contact .right')
 const contactLeft = document.querySelector('.contact .left')
+const contactSection = document.querySelector('.contact')
 
-gsap.from(contactLeft, 0.3, {
-    scrollTrigger:{
-        trigger:section04,
-        start: 'bottom 50%',
-    },
-    y:50,
-    opacity :0,
-    delay:0.5,
-})
+// gsap.from(contactSection, 0.3,{
+//     scrollTrigger:{
+//         trigger:section04,
+//         start:'bottom 50%',
+//     },
+//     y:50,
+//     opacity:0,
+//     delay: 0.5,
+// })
+
+// gsap.from(contactLeft, 0.3, {
+//     scrollTrigger:{
+//         trigger:section04,
+//         start: 'bottom 50%',
+//     },
+//     y:50,
+//     opacity :0,
+//     delay:0.5,
+// })
 
 // cards.forEach((val, idx) => {
 
