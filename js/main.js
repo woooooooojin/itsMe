@@ -65,7 +65,7 @@ function randomposition() {
     return Math.floor(Math.random() * window.innerWidth);
 }
 for (let i = 0; i < 350; i++) {
-    createStar()
+    // createStar()
 }
 
 //down btn
@@ -175,56 +175,22 @@ cardLis.forEach((value) => {
 })
 
 
+//프로필사진 마우스무브 이벤트
+const myImgCont = document.querySelector('.about_self .left')
+const myImg = document.querySelector('.my_img')
+myImgCont.addEventListener('mousemove',function(e){
+    let x = e.offsetX
+    let y = e.offsetY
+    let rotateY = -1/5 * x + 20
+    let rotateX = 4/30 * y - 20
+    myImg.style = `transform : perspective(350px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`
+})
+myImgCont.addEventListener('mouseout',function(){
+    myImg.style = `transform : perspective(350px) rotateX(0deg) rotateY(0deg)`
+})
 
 
 
-//숫자하고 프로그레스바 올라가는거 
-
-// window.addEventListener('scroll', function () {
-
-//     if (window.pageYOffset>= 1500  ) {
-
-// let countBox = document.getElementById('skill01') //html
-// let countBox2 = document.getElementById('skill02') //css
-// let countBox3 = document.getElementById('skill03') //js
-// let count = 0;
-
-// let counting = setInterval(function () {
-//     if (count == 100) {
-//         clearInterval(counting);
-//         return false;
-//     }
-//     count += 1
-//     countBox.innerHTML = count + '%'
-//     countBox2.innerHTML = count + '%'
-//     countBox3.innerHTML = (count - 10) + '%'
-
-
-// }, 25);
-
-
-
-
-// const progress = document.getElementsByTagName('progress')
-
-// let cnt = 0;
-// let progressCnt = setInterval(() => {
-
-//     if (cnt == 100) {
-//         clearInterval(progressCnt);
-//         return false;
-//     }
-//     cnt += 1
-
-//     progress[0].value = cnt
-//     progress[1].value = cnt
-//     progress[2].value = cnt - 10
-// }, 25);
-
-
-
-//     }//if
-// }) //window scroll
 
 
 
