@@ -65,7 +65,7 @@ function randomposition() {
     return Math.floor(Math.random() * window.innerWidth);
 }
 for (let i = 0; i < 350; i++) {
-    // createStar()
+    createStar()
 }
 
 //down btn
