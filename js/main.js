@@ -64,7 +64,8 @@ function createStar() {
 function randomposition() {
     return Math.floor(Math.random() * window.innerWidth);
 }
-for (let i = 0; i < 350; i++) {
+
+for (let i = 0; i < 500; i++) {
     createStar()
 }
 
