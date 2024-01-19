@@ -561,7 +561,6 @@ section .about_self .right h4::after{
     font-size: 14px;
 }
 
-.progress_wrap {}
 
 #progress {
     appearance: none;
@@ -871,6 +870,8 @@ footer {
 
 /***************popup***************/
 
-.popup {}
 
-.popup .popup_wrap {}
+
+
+
+
