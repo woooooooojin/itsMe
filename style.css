@@ -504,6 +504,9 @@ section .about_self .right h4::after{
 .cardflip ul li:nth-child(5n) {
     margin-right: 0;
 }
+.cardflip ul li:nth-child(11) {
+    margin-left: 20px;
+}
 
 
 
